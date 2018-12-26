@@ -2,6 +2,8 @@
 
 > A GitHub App built with [Probot](https://github.com/probot/probot)
 
+> :warning: This project is WIP and not ready for production yet.
+
 ## Setup
 
 ```sh
