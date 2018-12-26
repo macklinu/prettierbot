@@ -1,0 +1,39 @@
+{
+  "name": "prettierbot",
+  "version": "1.0.0",
+  "description": "A Probot app",
+  "author": "Mackie Underdown <macklinu@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/macklinu/prettierbot.git",
+  "homepage": "https://github.com/macklinu/prettierbot",
+  "bugs": "https://github.com/macklinu/prettierbot/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "dev": "nodemon --exec \"probot run ./src/index.js\" -w src",
+    "start": "probot run ./src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+  },
+  "dependencies": {
+    "kleur": "^3.0.1",
+    "lodash": "^4.17.11",
+    "nock": "^10.0.0",
+    "prettier": "^1.15.3",
+    "probot": "^7.4.0"
+  },
+  "devDependencies": {
+    "jest": "^23.4.0",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.2"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
